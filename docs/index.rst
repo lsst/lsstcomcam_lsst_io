@@ -4,11 +4,7 @@
 LSSTComCam: The LSST Commissioning Camera
 #########################################
 
-DOI: Not yet issued.
-
-.. important::
-
-   This website is currently under development.
+DOI: https://doi.org/10.71929/rubin/2561361
 
 The LSST Commissioning Camera (LSSTComCam) was mounted on the Simonyi Survey Telescope in August 2022 and observed for seven weeks in late 2024 until it was removed from the telescope in December 2024.
 It is a smaller, fully functional version of `LSSTCam <https://lsstcam.lsst.io>`_, with only the central raft of 9 4k x 4k CCDs (all `ITL <https://www.itl.arizona.edu/capabilities>`_ sensors) and comprising 144 megapixels.
