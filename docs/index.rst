@@ -61,6 +61,21 @@ LSSTComCam was the instrument used to facilitate early system integration for th
 It was not, itself, commissioned.
 The image quality achieved during the LSSTComCam on-sky campaign, and of the data in `DP1 <https://dp1.lsst.io>`_, is not necessarily indicative of the image quality that Rubin Observatory expects to achieve with LSSTCam.
 
+.. _comcam-citing:
+
+Citing LSSTComCam
+=================
+
+Use of the correct formal citation strings and keywords ensures that all uses of data from LSSTComCam can be found using community tools.
+
+* DOI: https://doi.org/10.71929/rubin/2561361 (refers to this document)
+
+  * Use this DOI when referring to the instrument specifically; otherwise a dataset DOI may be more appropriate (see the documentation for the specific data you are using).
+
+* IVOA `ObsCore <https://www.ivoa.net/documents/ObsCore/20170509/index.html>`_ keywords: ``facility_name`` = ``Rubin:Simonyi``, ``instrument_name`` = ``LSSTComCam``
+* AAS `facility keyword <https://journals.aas.org/facility-keywords/>`_: ``Rubin:Simonyi`` or, for specificity, ``Rubin:Simonyi (LSSTComCam)``
+* Minor Planet Center `observatory code <https://minorplanetcenter.net/iau/lists/ObsCodesF.html>`_: ``X05``
+
 .. _comcam-refs:
 
 References
