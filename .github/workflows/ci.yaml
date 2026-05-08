@@ -24,6 +24,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Clone everything.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,6 +41,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Clone everything.
+          fetch-depth: 0
 
       - name: Run tox
         uses: lsst-sqre/run-tox@v1
@@ -50,6 +56,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Clone everything.
+          fetch-depth: 0
 
       - name: Run tox
         uses: lsst-sqre/run-tox@v1
